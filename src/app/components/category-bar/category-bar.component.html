@@ -1,0 +1,8 @@
+<div class="h-12 shadow-md flex justify-center items-center">
+    <a 
+    *ngFor="let category of categories" 
+    routerLink="category.link"
+    class="mx-4 cursor-pointer hover:text-main"
+    >{{ category.name }}
+    </a>
+</div>

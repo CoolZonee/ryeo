@@ -1,0 +1,10 @@
+.nav-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+}

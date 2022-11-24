@@ -1,0 +1,23 @@
+<nav class="flex items-center justify-center w-full h-14 shadow-md">
+    <div class="ml-16">
+        <img src="/assets/ryeo_logo.jpg" class="nav-logo cursor-pointer">
+    </div>
+    
+    <div class="flex ml-auto mr-16 items-center">
+        <div id="searchBar" class="ml-auto mr-10 relative">
+            <input type="text" class="mr-4 border-2 border- outline-none h-2 rounded-full w-64 p-4 pr-8">
+            <fa-icon [icon]="faSearch" class="absolute right-8 top-1 cursor-pointer"></fa-icon>
+        </div>
+        <div id="fav" class="cursor-pointer mr-4">
+            <fa-icon [icon]="faHeart" class="mr-2"></fa-icon>
+            <span>Wish List</span>
+        </div>
+        <div id="cart" class="cursor-pointer mr-4">
+            <fa-icon [icon]="faCartShopping" class="mr-2"></fa-icon>
+            <span>Cart</span>
+        </div>
+        <div id="user" class="cursor-pointer mr-2">
+            <fa-icon [icon]="faUser" class="mr-2"></fa-icon>
+        </div>
+    </div>
+</nav>
